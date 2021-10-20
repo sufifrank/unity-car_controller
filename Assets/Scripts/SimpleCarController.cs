@@ -30,8 +30,8 @@ public class SimpleCarController : MonoBehaviour
 
     private void Accelerate()
     {
-        frontLeftW.motorTorque = verticalInput * motorForce;
-        frontRightW.motorTorque = verticalInput * motorForce;
+        rearLeftW.motorTorque = verticalInput * motorForce;
+        rearRightW.motorTorque = verticalInput * motorForce;
     }
 
     private void UpdateWheelPoses()
